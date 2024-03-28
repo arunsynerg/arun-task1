@@ -1,37 +1,29 @@
-import React from "react";
 import './Carousel-slick.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import slider1 from '../../Assets/carausel-img1.jpg'
-import slider2 from '../../Assets/carausel-img2.jpg'
-import slider3 from '../../Assets/carausel-img3.jpg'
-
-function SimpleSlider() {
+import slide1 from '../../Assets/carausel-img1.png'
+import slide2 from '../../Assets/carausel-img2.png'
+import slide3 from '../../Assets/carausel-img3.png'
+function Carousel(){
   const settings = {
-    dots: true,
+    
     infinite: true,
     speed: 500,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    pauseOnHover: true,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    
   };
-  return (
-    <div className="slider-container">
-      <Slider {...settings}>
-        <div>
-          <img src={slider1} />
-        </div>
-        <div>
-        <img src={slider2} />
-        </div>
-        <div>
-        <img src={slider3} />
-        </div>
-        
-      </Slider>
-    </div>
-  );
+return(
+  <>
+  <div className='slider'>
+  <Slider {...settings}>
+    <img src={slide1} />
+    <img src={slide2} />
+    <img src={slide3} />
+    </Slider>
+  </div>
+  </>
+)
 }
-
-export default SimpleSlider;
+export default Carousel;
