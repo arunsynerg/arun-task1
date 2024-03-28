@@ -1,0 +1,29 @@
+.footer-container{
+    display: grid;
+    grid-template-columns: 0.8fr 2.4fr 0.8fr;
+    margin: 0;
+    background-color: black;
+    color: #0c0c0c;
+}
+.contact-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.contact-links div{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+   
+    background-position: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.phone{
+    background:url(../../Assets/phonebg.jpg);
+}
+.instagram{
+    background:url(../../Assets/instagram.jpg);
+}
+.website{
+    background:url(../../Assets/website.jpg);
+}
