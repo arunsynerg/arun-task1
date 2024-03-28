@@ -1,0 +1,58 @@
+.contact-container{
+    display: grid;
+    grid-template-columns: 0.8fr 2.4fr 0.8fr;
+    margin: 0;
+    background-color: black;
+}
+.contact-container p{
+    color: #fff;
+}
+.form-container{
+    background-color: #0285F4;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    background-color: #0285F4;
+    border: rgba(60, 59, 59, 0.992) 2px solid;
+    margin: 0 10px;
+}
+.form input{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    border: none;
+}
+.form textarea{
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    border: none;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 0;
+    background:transparent;
+    transform: translateX(250px);
+}
+button img{
+    width: 70px;
+   
+}
+.insta-container{
+    display: grid;
+    grid-template-columns: 0.8fr 2.4fr 0.8fr;
+    margin: 0;
+    background-color: black;
+}
+.insta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    margin: 10px 0;
+}
+.insta img{
+   width: 100%;
+}
