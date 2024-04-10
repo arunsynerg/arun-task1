@@ -1,18 +1,20 @@
 .footer-container{
     display: grid;
-    grid-template-columns: 0.8fr 2.4fr 0.8fr;
+    grid-template-columns: 0.8fr 2fr 0.4fr 0.8fr;
+   
     margin: 0;
-    background-color: black;
-    color: #0c0c0c;
+    background-color: #0c0c0c;
+    color: #141414;
 }
 .contact-links{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px  0;
 }
 .contact-links div{
     width: 100%;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0;
    
     background-position: center;
     font-weight: bold;
@@ -26,4 +28,32 @@
 }
 .website{
     background:url(../../Assets/website.jpg);
+}
+.email-container{
+    display: grid;
+    grid-template-columns: 0.8fr 2.4fr 0.8fr;
+    background-color: #0c0c0c;
+}
+.email-subscribe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #fff;
+   background:url(../../Assets/footerbg.jpg);
+   padding: 10px 5px;
+}
+.email-subscribe button{
+    transform: translateX(0);
+    background-color: aliceblue;
+    padding: 10px;
+    border: none;
+}
+.email-desc{
+    grid-column:span 3;
+    text-align: start;
+    align-items: start;
+}
+.input{
+    grid-column: span 2;
+    outline: none;
+    border: none;
 }
